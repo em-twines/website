@@ -23,15 +23,15 @@ h2{
     left: 3vw;
     font-weight: 100;
     text-align: left;
-    min-height: 22px;
-    }
+    min-height: 18px;
+}
 
 .container{
     display: flex;
-    height: 5%;
+    height: 5vh;
     align-items: center;
     justify-content: left;
-    margin: 5%;
+    margin: 5vw;
 }
 
 .overlay1{
@@ -41,6 +41,7 @@ h2{
     font-size: 35px;
     font-weight: 75;
     text-align: left;
+    min-height: 18px;
     }
 
 .overlay2{
@@ -51,6 +52,7 @@ h2{
     font-weight: 60;
     text-align: left;
     line-height: 25pt;
+    min-height: 15px;
     }
 
 .logo{
@@ -130,16 +132,65 @@ p{
 }
 
 
+
+.projects{
+    width: 50vw;
+    justify-content: left;
+    margin-left: 22%;
+}
+
+.project1-container{
+    position: relative;
+}
+.box{
+    position: absolute;
+    border: .1vw solid #191E32;
+    height: 70vh;
+    width: 45vw;
+    margin-bottom: 10vh;
+    margin-left: 21.5vw;
+    z-index: 0;
+}
+
+.box1{
+    position: absolute;
+    border: .1vw solid #191E32;
+    height: 70vh;
+    width: 45vw;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    margin-left: 32.5vw;
+    z-index: 1;
+}
+
+.box-content{
+    position: absolute;
+    border: .1vw solid #191E32;
+    height: 40vh;
+    width: 25vw;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    z-index: 2;
+    margin-top: 21vh;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .contact{
     display: flex;
     justify-content: center;
+    padding-top: 100vh;
+    margin-top: 30vh;
 }
 
 
 .email{
     
     display: flex;
-    align-items: center;
     text-align: left;
     height: 5vh;
     width: 50vw;
@@ -153,7 +204,6 @@ p{
 .message{
     
     display: flex;
-    align-items: top;
     text-align: left;
     height: 15vh;
     width: 50vw;
