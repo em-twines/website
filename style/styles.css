@@ -5,9 +5,8 @@ html{
 
 h2{    
     display: flex;
-    font-size: 20px;
+    font-size: 4vw;
     font-weight: 60;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .logo{
@@ -82,128 +81,6 @@ h2{
     font-size: 3vw;
 }
 
-/*
-@media screen and (min-width: 450px) {
-    .h2{
-        font-size: 2rem;
-        font-weight: 60;
-        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    }
-}
-@media screen and (max-width: 450px) {
-    .h2{
-        font-size: .8rem;
-        font-weight: 60;
-        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    }
-}
-
-*/
-
-/*
-@media screen and (min-width: 450px) {
-    .overlay{
-        position: absolute;
-        top: 3vh;
-        left: 3vw;
-        font-weight: 125;
-        text-align: left;
-        font-size: 4.5rem;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .overlay{
-        position: absolute;
-        top: 1vh;
-        left: 3vw;
-        font-weight: 100;
-        text-align: left;
-        font-size: 1rem;
-
-    }
-    
-}
-*/
-
-
-/*
-@media screen and (min-width: 450px) {
-    .overlay1{
-        position: absolute;
-        top: 12vh;
-        left: 3vw;
-        font-size: 3rem;
-        font-weight: 75;
-        text-align: left;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .overlay1{
-        position: absolute;
-        top: 4vh;
-        left: 3vw;
-        font-size: .9rem;
-        font-weight: 50;
-        text-align: left;
-    }
-}
-
-*/
-
-/*
-@media screen and (min-width: 450px) {
-    .overlay2{
-        position: absolute;
-        top: 28%;
-        left: 3vw;
-        font-size: 20px;
-        font-weight: 60;
-        text-align: left;
-        line-height: 25pt;
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .overlay2{
-        position: absolute;
-        left: 3vw;
-        font-weight: 60;
-        text-align: left;
-        line-height: 12pt;
-        font-size: .8rem;
-    }
-}
-
-*/
-
-/*
-@media screen and (min-width: 450px) {
-    .quote{
-        position: absolute;
-        top: 10vh;
-        left: 0vw;
-        font-size: 20px;
-        font-weight: 60;
-        text-align: left;
-        font-size: 1.2rem;
-        top: 50vh
-    }
-}
-@media screen and (max-width: 450px) {
-    .quote{
-        position: absolute;
-        right: 3vw;
-        font-weight: 60;
-        text-align: right;
-        font-size: .4rem;
-        word-wrap: wrap;
-    }
-}
-
-*/
 
 
 ul{
@@ -228,51 +105,62 @@ body{
 
 
 p{
-    font-size: 18px;
+    font-size: 2vw;
     font-weight: 50;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
+
+
+
 .about-me-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    overflow: hidden;
-    padding-bottom: 50vh;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    justify-content: center;
+    height: 75%;
+    width: 75%;
+    margin-bottom: 10vw;
+    padding-top: 10vw; 
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vw; 
+    margin-bottom: 10vw;
+    gap: 5vw;
+}
+
+.about-me-column{
+    display: flex;
+    padding-top: 3vh;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .about-me-label{
     display: flex;
+    padding-top: 3vh;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    margin-top: 50vh;
-    width: 70vw;
+    flex-direction: column;
+
 }
-
-
 
 .about-me-text{
     display: flex;
-    align-items: center;
-    overflow: hidden;
-    width: 50vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-me-image{
     display: flex;
+    padding-top: 10%; 
     align-items: center;
-    overflow: hidden;
-    width: 50vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
-
+    max-width: 30vw; 
+    max-height: auto;
+    justify-content: center;
 }
 
 
@@ -286,6 +174,7 @@ p{
 .project1-container{
     position: relative;
 }
+
 .box{
     position: absolute;
     border: .1vw solid #191E32;
@@ -320,6 +209,7 @@ p{
     padding: 1vw;
     align-items: center;
     justify-content: center;
+    font-size: 2vw;
 }
 
 
