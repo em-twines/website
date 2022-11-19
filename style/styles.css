@@ -1,67 +1,210 @@
-h1{
-    font-size: 60px;
-    font-weight: 100;
+html{
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+
 
 h2{    
+    display: flex;
     font-size: 20px;
     font-weight: 60;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-
 }
 
-.h2{    
-    font-size: 20px;
-    font-weight: 60;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-
-}
-.overlay{
-    position: absolute;
-    top: 3vh;
-    left: 3vw;
-    font-weight: 100;
-    text-align: left;
-    min-height: 18px;
+.logo{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    border: .5vw solid #191E32;
+    width: 99%;
+    max-height: 98%;
+    z-index: 0;
+    justify-content: center;
+    
 }
 
 .container{
     display: flex;
-    height: 5vh;
-    align-items: center;
-    justify-content: left;
-    margin: 5vw;
+    width: 60%;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: visible;
+    min-height: 0;
+    min-width: 0;
 }
 
-.overlay1{
-    position: absolute;
-    top: 12%;
-    left: 3vw;
-    font-size: 35px;
-    font-weight: 75;
-    text-align: left;
-    min-height: 18px;
-    }
+.h1{
+    display: flex;
+    font-weight: 100;
+    margin-left: 3vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+    font-size: 7vw;
+    z-index: 1;
+    min-height: 0;
+    min-width: 0;
+}
 
-.overlay2{
-    position: absolute;
-    top: 28%;
-    left: 3vw;
-    font-size: 20px;
+.h2{    
+    display: flex;
     font-weight: 60;
-    text-align: left;
-    line-height: 25pt;
-    min-height: 15px;
+    margin-left: 3vw;
+    z-index:2;
+    min-height: 0;
+    min-width: 0;   
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+    font-size: 4vw;
+
+}
+
+.quote{
+    display: flex;
+    font-weight: 60;
+    width: 45vw;
+    margin-left: 3vw;
+    z-index: 1;
+    min-height: 0;
+    min-width: 0;
+    font-size: 2vw;
+}
+
+.overlay-nav{
+    display: flex;
+    left: 3vw;
+    font-weight: 45;
+    margin-left: 3vw;
+    z-index: 1;
+    min-height: 0;
+    min-width: 0;
+    margin-bottom: .5vw;
+    line-height: 4vw;
+    font-size: 3vw;
+}
+
+/*
+@media screen and (min-width: 450px) {
+    .h2{
+        font-size: 2rem;
+        font-weight: 60;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     }
+}
+@media screen and (max-width: 450px) {
+    .h2{
+        font-size: .8rem;
+        font-weight: 60;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+}
 
-.logo{
+*/
 
-    border: .5vw solid #191E32;
-    width: 98vw;
-    max-height: 95vh;
+/*
+@media screen and (min-width: 450px) {
+    .overlay{
+        position: absolute;
+        top: 3vh;
+        left: 3vw;
+        font-weight: 125;
+        text-align: left;
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .overlay{
+        position: absolute;
+        top: 1vh;
+        left: 3vw;
+        font-weight: 100;
+        text-align: left;
+        font-size: 1rem;
+
+    }
     
 }
+*/
+
+
+/*
+@media screen and (min-width: 450px) {
+    .overlay1{
+        position: absolute;
+        top: 12vh;
+        left: 3vw;
+        font-size: 3rem;
+        font-weight: 75;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .overlay1{
+        position: absolute;
+        top: 4vh;
+        left: 3vw;
+        font-size: .9rem;
+        font-weight: 50;
+        text-align: left;
+    }
+}
+
+*/
+
+/*
+@media screen and (min-width: 450px) {
+    .overlay2{
+        position: absolute;
+        top: 28%;
+        left: 3vw;
+        font-size: 20px;
+        font-weight: 60;
+        text-align: left;
+        line-height: 25pt;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .overlay2{
+        position: absolute;
+        left: 3vw;
+        font-weight: 60;
+        text-align: left;
+        line-height: 12pt;
+        font-size: .8rem;
+    }
+}
+
+*/
+
+/*
+@media screen and (min-width: 450px) {
+    .quote{
+        position: absolute;
+        top: 10vh;
+        left: 0vw;
+        font-size: 20px;
+        font-weight: 60;
+        text-align: left;
+        font-size: 1.2rem;
+        top: 50vh
+    }
+}
+@media screen and (max-width: 450px) {
+    .quote{
+        position: absolute;
+        right: 3vw;
+        font-weight: 60;
+        text-align: right;
+        font-size: .4rem;
+        word-wrap: wrap;
+    }
+}
+
+*/
+
 
 ul{
     list-style-type: none;
@@ -119,7 +262,8 @@ p{
     overflow: hidden;
     width: 50vw;
     padding-left: 4vw;
-    padding-right: 4vw;}
+    padding-right: 4vw;
+}
 
 .about-me-image{
     display: flex;
